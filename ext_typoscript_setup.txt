@@ -1,0 +1,14 @@
+module.tx_vmfdsannouncements {
+	view {
+		# cat=module.tx_vmfdsannouncements/file; type=string; label=Path to template root (BE)
+		templateRootPath = EXT:vmfds_announcements/Resources/Private/Backend/Templates/
+		# cat=module.tx_vmfdsannouncements/file; type=string; label=Path to template partials (BE)
+		partialRootPath = EXT:vmfds_announcements/Resources/Private/Backend/Partials/
+		# cat=module.tx_vmfdsannouncements/file; type=string; label=Path to template layouts (BE)
+		layoutRootPath = EXT:vmfds_announcements/Resources/Private/Backend/Layouts/
+	}
+	persistence {
+		# cat=module.tx_vmfdsannouncements//a; type=string; label=Default storage PID
+		storagePid =
+	}
+}
