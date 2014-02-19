@@ -1,7 +1,14 @@
 <f:layout name="Default" />
 
 <f:section name="content">
-  Hi, this is the content section.
+  <h2>Bekanntmachungen erstellen</h2>
+  <f:form action="build">
+  	Folgende Abschnitte werden mit berücksichtigt: <br />
+  	<f:form.checkbox name="pre" value="1" />Einleitende Folien<br />
+  	<f:form.checkbox name="events" value="1" />Veranstaltungen aus dem kOOL-Kalender<br />
+  	<f:form.checkbox name="post" value="1" />Abschließende Folien<br />
+  	<input type="submit" name="submit" />
+  </f:form>
 </f:section>
 
 <f:section name="iconButtons"></f:section>
